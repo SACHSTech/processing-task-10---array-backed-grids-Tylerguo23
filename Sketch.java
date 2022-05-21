@@ -88,7 +88,7 @@ public class Sketch extends PApplet {
 
     // Switches the state of the clicked cell and all adjacent cells
     isOn[column][row] = !isOn[column][row];
-    
+
     if (column != 0){
       isOn[column - 1][row] = !isOn[column - 1][row];
     }
@@ -139,7 +139,7 @@ public class Sketch extends PApplet {
         }
       }
       if (intMaxConsecutive > 2){
-        System.out.println("There are " + intMaxConsecutive + " continous blocks selected on row " + r);
+        System.out.println("There are " + intMaxConsecutive + " continous blocks selected on row " + r + ".");
       }
       intConsecCounter = 0;
       intMaxConsecutive = 0;
@@ -164,7 +164,7 @@ public class Sketch extends PApplet {
         }
       }
       if(intMaxConsecutive > 2){
-        System.out.println("There are " + intMaxConsecutive + " continous blocks selected on column " + c);
+        System.out.println("There are " + intMaxConsecutive + " continous blocks selected on column " + c + ".");
       }
       intConsecCounter = 0;
       intMaxConsecutive = 0;
