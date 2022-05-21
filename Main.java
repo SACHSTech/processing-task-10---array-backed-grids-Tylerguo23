@@ -2,9 +2,10 @@ import processing.core.PApplet;
 
 /**
  * Main class to execute sketch
- * @author 
+ * @author T. Guo
  *
  */
+
 class Main {
   public static void main(String[] args) {
     
